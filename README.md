@@ -21,6 +21,12 @@ A Flask-based web application for managing public toilet cleaning records and us
 ## Live Demo
 https://public-toilet-cleaning-register.onrender.com/
 
+## 🎥 Live Demo Video
+
+Watch the project demonstration here:
+
+https://drive.google.com/file/d/1Pzc3P44AiLGSWcE_v0f0X8oRNvXgKAoH/view?usp=sharing
+
 ## Project Structure
 
 ```
