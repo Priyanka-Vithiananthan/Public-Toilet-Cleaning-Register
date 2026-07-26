@@ -1,0 +1,19 @@
+record_id,block_id,location,cleaning_date,cleaner,complaint_text,complaint_date,status,needs_attention
+1,B001,City Park,20-07-2026,Pavi,,-,Clean,No
+2,B002,Bus Stand,20-07-2026,Ravi,Bad Smell,21-07-2026,Pending,Yes
+3,B003,Railway Station,21-07-2026,Kavi,Dirty Floor,22-07-2026,Pending,Yes
+4,B004,City Park,22-07-2026,Kumar,,-,Clean,No
+5,B005,Shopping Mall,22-07-2026,Ravi,,-,Clean,No
+6,B006,Market,23-07-2026,Anitha,Water Leakage,24-07-2026,In Progress,Yes
+7,B007,Hospital,24-07-2026,Pavithra,,-,Clean,No
+8,B008,Beach,24-07-2026,Ravi Kumar,Overflowing Bin,25-07-2026,Pending,Yes
+9,B009,Bus Depot,24-07-2026,Karthik,Bad Smell,25-07-2026,Pending,Yes
+10,B010,Temple,24-07-2026,Kavi,,-,Clean,No
+11,B011,Shopping Mall,25-07-2026,Suresh,,-,Clean,No
+12,B0012,City Park,25-07-2026,Maran,,-,Clean,No
+13,B013,Temple ,26-07-2026,Lakshmi,Broken Tap,26-07-2026,In Progress,Yes
+14,B014,Airport,26-07-2026,Ravi Kumar,,-,Clean,No
+15,B015,Bus Depot,27-07-2026,Arun,,-,Clean,No
+16,B016,Hospital,28-07-2026,Yash,,-,Clean,No
+17,B017,Airport,24-07-2026,Harini,,-,Clean,No
+18,B018,Bus Stand,26-07-2026,Not Assigned,Smell,26-07-2026,Pending,Yes

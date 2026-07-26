@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Dashboard</title>
+
+<link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="header">
+
+<h1>Public Toilet Cleaning Dashboard</h1>
+
+<a href="/logout">Logout</a>
+
+</div>
+
+
+
+<div class="cards">
+
+
+<div class="card blue">
+
+<h2>{{total}}</h2>
+
+<p>Total Records</p>
+
+</div>
+
+
+
+<div class="card green">
+
+<h2>{{cleaned}}</h2>
+
+<p>Clean Toilets</p>
+
+</div>
+
+
+
+<div class="card red">
+
+<h2>{{attention}}</h2>
+
+<p>Needs Attention</p>
+
+</div>
+
+
+</div>
+
+
+
+<table>
+
+
+<tr>
+
+<th>Record ID</th>
+<th>Block ID</th>
+<th>Location</th>
+<th>Cleaner</th>
+<th>Status</th>
+<th>Attention</th>
+
+</tr>
+
+
+
+{% for row in data %}
+
+<tr class="
+{% if row.status == 'Pending' %}
+danger
+
+{% elif row.status == 'In Progress' %}
+progress
+
+{% elif row.status == 'Clean' %}
+safe
+
+{% endif %}
+">
+
+<td>{{row.record_id}}</td>
+<td>{{row.block_id}}</td>
+<td>{{row.location}}</td>
+<td>{{row.cleaner}}</td>
+<td>{{row.status}}</td>
+<td>{{row.needs_attention}}</td>
+
+</tr>
+
+{% endfor %}
+
+
+</table>
+
+
+</body>
+
+</html>
