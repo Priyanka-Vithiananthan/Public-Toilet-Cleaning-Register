@@ -29,7 +29,15 @@ https://drive.google.com/file/d/1Pzc3P44AiLGSWcE_v0f0X8oRNvXgKAoH/view?usp=shari
 
 ## 📸 Screenshots
 
+![Dashboard](Screenshots/dashboard.png)
 
+![Login](Screenshots/login.png)
+
+![Records](Screenshots/records.png)
+
+![Complaint](Screenshots/complaint.png)
+
+![Updated Records After Complaint](Screenshots/updatedrecordsaftercomplaint.png)
 
 ## Project Structure
 
